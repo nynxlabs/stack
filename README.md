@@ -4,25 +4,25 @@
 
 The tools we use every day, across all our machines and work. Each pairs an interface that both people and agents can use with the infrastructure that makes it work and reach into the world. We build on strong open-source foundations, credit them, and add what we need on top.
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/densk_v1.svg"><img src="icons/densk_light_v1.svg" alt="" width="24" height="24" align="top"></picture> densk/
+### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/densk_v1.svg"><img src="icons/densk_light_v1.svg" alt="" width="24" height="24" align="top"></picture>densk/
 
 <sub>Since Sep 2026 · TypeScript, Web Application Development, Software Architecture</sub>
 
 Our workspace for knowledge work and code, named for den + desk. School notes, documentation, [Excalidraw](https://github.com/excalidraw/excalidraw) drawings, papers, code repositories, and our agents' shared memory live together as plain files that people and agents can both read and edit, on desktop and mobile, with a PDF viewer built on [pdf.js](https://github.com/mozilla/pdf.js) and a code editor that shows changes as diffs. Agents work in the app alongside us too: they can see which tabs are open on each of our devices, open notes and PDFs, switch and close tabs, and jump to a heading or a page, and anything they edit shows up live in every open window.
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/knead_v4.svg"><img src="icons/knead_light_v4.svg" alt="" width="24" height="24" align="top"></picture> knead/
+### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/knead_v4.svg"><img src="icons/knead_light_v4.svg" alt="" width="24" height="24" align="top"></picture>knead/
 
 <sub>Since Nov 2025 · Python, CLI Development, Large Language Models (LLM)</sub>
 
 Our study toolkit. It turns class material into cheat sheets, [Anki](https://apps.ankiweb.net/) decks, problem walkthroughs, and [Excalidraw](https://github.com/excalidraw/excalidraw) homework boards in [densk](#densk), through a terminal menu or commands that we and our agents can run.
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/nook_v3.svg"><img src="icons/nook_light_v3.svg" alt="" width="24" height="24" align="top"></picture> nook/
+### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/nook_v3.svg"><img src="icons/nook_light_v3.svg" alt="" width="24" height="24" align="top"></picture>nook/
 
 <sub>Since May 2026 · Python, AI Agents, Web Application Development</sub>
 
 The app where we talk with nezzy & nex, on desktop, tablet, and phone. It's the interface for [nynxkittens](#nynxkittens): conversations, alerts, and check-ins from the agent all arrive here. Agents can drive its interface too, opening chats and arranging tabs on any of our devices. Built on [Hermes WebUI](https://github.com/nesquena/hermes-webui).
 
-### <img src="icons/nynx_pfp_square_512_v5.webp" alt="" width="24" height="24" align="top"> nynxkittens/
+### <img src="icons/nynx_pfp_square_512_v5.webp" alt="" width="24" height="24" align="top">nynxkittens/
 
 <sub>Since Feb 2026 · Python, AI Agents, Large Language Models (LLM)</sub>
 
@@ -30,37 +30,37 @@ we're [nezzy & nex](https://github.com/nynxkittens), nynx for short, and this is
 
 more on [our own page](https://github.com/nynxkittens)
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/perch_v1.svg"><img src="icons/perch_light_v1.svg" alt="" width="24" height="24" align="top"></picture> perch/
+### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/perch_v1.svg"><img src="icons/perch_light_v1.svg" alt="" width="24" height="24" align="top"></picture>perch/
 
 <sub>Since Sep 2026 · C++, Linux, Git</sub>
 
 Our browser on desktop, mobile, and Linux, compiled on our own machine. Agents drive it alongside us through remote debugging and our own extension, working in background tabs without stealing focus, and a Linux build on our main machine gives them a browser of their own. Tabs sync across devices, so our work follows us everywhere and we can watch what agents are doing from any screen. New tabs open on a page of our own, showing the day's schedule nynx keeps, upcoming events, and usage limits at a glance. Built on [Brave](https://github.com/brave/brave-core).
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/pounce_v1.svg"><img src="icons/pounce_light_v1.svg" alt="" width="24" height="24" align="top"></picture> pounce/
+### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/pounce_v1.svg"><img src="icons/pounce_light_v1.svg" alt="" width="24" height="24" align="top"></picture>pounce/
 
 <sub>Since Oct 2026 · TypeScript, Linux, Systems Integration</sub>
 
 Our terminal app, one interface on desktop, tablet, and phone that brings the terminals from all our devices together in one place. Sessions keep running when we close the app, so we can start one on the desktop and pick it up on the phone, and on Android it can also open a shell on the device itself through [Termux](https://github.com/termux/termux-app). Training runs for [rl-adaptive-dbs](https://github.com/nynxlabs/rl-adaptive-dbs) open their logs in [tmux](https://github.com/tmux/tmux), and the coding agents [scratch](#scratch) launches can be watched there live from any screen if needed. Agents can read our sessions and help out, typing only with our approval. Built on [xterm.js](https://github.com/xtermjs/xterm.js).
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/purrxy_v1.svg"><img src="icons/purrxy_light_v1.svg" alt="" width="24" height="24" align="top"></picture> purrxy/
+### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/purrxy_v1.svg"><img src="icons/purrxy_light_v1.svg" alt="" width="24" height="24" align="top"></picture>purrxy/
 
 <sub>Since Oct 2026 · TypeScript, Python, Systems Integration</sub>
 
 Our communication proxy, connecting people and agents through shared communication tools. Text messages and email today, in a chat client of our own on [Matrix](https://matrix.org/) with a mail bridge behind it, so agents can read messages and draft replies alongside us. Agents can drive the app itself too, opening chats on whichever device we're using. Phone calls and other social platforms are to come. Built on [Sable](https://github.com/SableClient/Sable).
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/scratch_v3.svg"><img src="icons/scratch_light_v3.svg" alt="" width="24" height="24" align="top"></picture> scratch/
+### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/scratch_v3.svg"><img src="icons/scratch_light_v3.svg" alt="" width="24" height="24" align="top"></picture>scratch/
 
 <sub>Since Jul 2026 · TypeScript, AI Agents, Software Architecture</sub>
 
 Desktop and mobile apps for handing off work to coding agents, where our bigger builds run, each in its own isolated worktree. Tabs sync across devices, alerts only go off when we aren't already watching, restarts wait for running work to finish, stuck agent sessions recover without freezing the rest, and finished work reports straight back to nezzy & nex. Agents can start, steer, and read threads in it too. Built on [Synara](https://github.com/Emanuele-web04/synara), itself built on [T3 Code](https://github.com/pingdotgg/t3code).
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/sunbeam_v1.svg"><img src="icons/sunbeam_light_v1.svg" alt="" width="24" height="24" align="top"></picture> sunbeam/
+### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/sunbeam_v1.svg"><img src="icons/sunbeam_light_v1.svg" alt="" width="24" height="24" align="top"></picture>sunbeam/
 
 <sub>Since May 2026 · Rust, Kotlin</sub>
 
 The tiling window manager that lays out our Windows desktop, with our own config and patches, and our tablet's app windows too, using the same layout code. Agents can arrange windows on both alongside us. Built on [komorebi](https://github.com/LGUG2Z/komorebi).
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/trill_v1.svg"><img src="icons/trill_light_v1.svg" alt="" width="24" height="24" align="top"></picture> trill/
+### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/trill_v1.svg"><img src="icons/trill_light_v1.svg" alt="" width="24" height="24" align="top"></picture>trill/
 
 <sub>Since Sep 2026 · Kotlin, Android Development</sub>
 
