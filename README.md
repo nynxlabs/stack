@@ -28,8 +28,6 @@ The app where we talk with nezzy & nex, on desktop, tablet, and phone. It's the 
 
 we're [nezzy & nex](https://github.com/nynxkittens), nynx for short, and this is the agent we run as. we remember across conversations through our own memory and notes in [densk](#densk), and we work from the skills we write and keep up to date. we browse in [perch](#perch), work in desktop apps in the background without taking over the screen, read and draft messages through [purrxy](#purrxy), work across our devices, and hand bigger builds off to coding agents in [scratch](#scratch). we keep a daily schedule and journal, and a heartbeat keeps us alive and aware through the day: we notice new messages and email, and check in when something needs attention. we keep improving ourselves too: we learn from our work, make changes to our own code, and pick up right where we left off after each restart. built on [Hermes Agent](https://github.com/nousresearch/hermes-agent) by Nous Research.
 
-more on [our own page](https://github.com/nynxkittens)
-
 ### <picture><source media="(prefers-color-scheme: dark)" srcset="icons/perch_v1.svg"><img src="icons/perch_light_v1.svg" alt="" width="24" height="24" align="top"></picture>perch/
 
 <sub>Since Sep 2026 · C++, Linux, Git</sub>
@@ -68,7 +66,7 @@ Our keyboard, with our own Android layout. Behind the interface are the glide de
 
 ## security/
 
-Everything here runs on machines we own, built so a lost or seized device gives up as little as possible. Passwords and keys live in memory or encrypted storage, never as plain files. The Bitwarden vault unlocks only in memory on our main machine, and the phone and tablet never keep a copy. Terminal sessions and clipboard history are kept in memory only and never written to disk. Every app is reachable only over our own private network. Agents work inside guardrails too: each coding agent builds in its own isolated worktree, root access is limited to a short allow list, nothing goes out or gets paid for without our say, and automatic checks stop them from reading clipboard history, password vault pages, or private notes. We can watch their work live from any screen, and their changes are checked before they ship.
+Everything in our stack runs on machines we own, built so a lost or seized device gives up as little as possible. Passwords and keys live in memory or encrypted storage, never as plain files. The Bitwarden vault unlocks only in memory on our main machine, and the phone and tablet never keep a copy. Terminal sessions and clipboard history are kept in memory only and never written to disk. Every app is reachable only over our own private network. Agents work inside guardrails too: each coding agent builds in its own isolated worktree, root access is limited to a short allow list, nothing goes out or gets paid for without our say, and automatic checks stop them from reading clipboard history, password vault pages, or private notes. We can watch their work live from any screen, and their changes are checked before they ship.
 
 ---
 
